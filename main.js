@@ -1,5 +1,8 @@
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import structureLeft from './assets/structure_left.jpg';
+import structureCenter from './assets/structure_center.png';
+import structureRight from './assets/structure_right.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,9 +71,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Original images array matching the mockups
     const imagesData = [
-        { src: 'assets/structure_left.jpg', alt: 'Piscina/Prainha do Portinho' },
-        { src: 'assets/structure_center.png', alt: 'Crianças na sala de aula/ateliê' },
-        { src: 'assets/structure_right.png', alt: 'Crianças brincando ao ar livre' }
+        { src: structureLeft, alt: 'Piscina/Prainha do Portinho' },
+        { src: structureCenter, alt: 'Crianças na sala de aula/ateliê' },
+        { src: structureRight, alt: 'Crianças brincando ao ar livre' }
     ];
     
     let currentIndex = 1; // Start with the center image active (Index 1)
