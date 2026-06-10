@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portinho | Educação Infantil - Colégio Visconde de Porto Seguro</title>
+    <meta name="description" content="O início de uma jornada internacional. Um ambiente acolhedor e plurilíngue para crianças de 1 a 5 anos no Colégio Visconde de Porto Seguro.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main Container for GSAP Story Scroll -->
+    <main class="story-scroll-container" id="story-scroll-container">
+
+        <!-- 1. HERO SECTION -->
+        <section class="story-section hero-section" data-flow-section id="hero">
+            <div class="flow-art-container hero-art-container">
+                <!-- Desktop background image (using the clean layout) -->
+                <div class="hero-bg-desktop">
+                    <img src="assets/hero_bg.png" alt="Portinho background" class="hero-bg-img-desktop" id="hero-parallax-img">
+                </div>
+                <!-- Mobile photo container -->
+                <div class="hero-photo-mobile">
+                    <img src="assets/hero_photo.png" alt="Professora e crianças" class="hero-img-mobile">
+                </div>
+                <!-- Content overlay -->
+                <div class="hero-overlay-content">
+                    <div class="hero-content">
+                        <h1 class="hero-brand">Portinho!</h1>
+                        <h2 class="hero-title">O início de uma jornada internacional.</h2>
+                        <p class="hero-text">Um ambiente acolhedor e plurilíngue para crianças de 1 a 5 anos.</p>
+                        <a href="#form-section" class="cta-button">
+                            Agende uma visita no Portinho
+                            <span class="cta-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 2. INTRO SECTION -->
+        <section class="story-section intro-section" data-flow-section id="intro">
+            <div class="flow-art-container">
+                <div class="intro-container">
+                    <div class="intro-header">
+                        <div class="intro-left">
+                            <p class="intro-main-text">
+                                A Educação Infantil do Colégio Visconde de Porto Seguro, conhecida como <strong>Portinho</strong>, oferece um ambiente acolhedor e estruturado para crianças de 1 a 5 anos de idade, respeitando as particularidades de cada fase do desenvolvimento.
+                            </p>
+                        </div>
+                        <div class="intro-right">
+                            <img src="assets/logo_porto.png" alt="Colégio Visconde de Porto Seguro Logo" class="intro-logo">
+                        </div>
+                    </div>
+
+                    <!-- Blue Highlight Box -->
+                    <div class="intro-highlight-box">
+                        <h3 class="highlight-title">Muito mais do que aprender: crescer em todas as dimensões.</h3>
+                        <p class="highlight-text">
+                            Nesse contexto, consideramos as bases do processo educativo, com estímulos potentes à faixa etária e atenção genuína ao desenvolvimento integral dos alunos.
+                        </p>
+                    </div>
+
+                    <!-- Red Arrow Separator -->
+                    <div class="arrow-separator">
+                        <img src="assets/arrow_separator.svg" alt="Seta para baixo" class="arrow-icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. IMAGE BANNER -->
+        <section class="story-section image-banner-section" data-flow-section id="banner">
+            <div class="flow-art-container banner-art-container">
+                <div class="banner-wrapper">
+                    <img src="assets/banner_kiss.png" alt="Mãe beijando filho com crianças ao fundo" class="banner-bg">
+                    <div class="banner-overlay"></div>
+                    <div class="banner-container">
+                        <p class="banner-text">
+                            Em uma instituição reconhecida por sua excelência e proposta internacional, as crianças vivenciam diferentes idiomas e vivências culturais desde cedo, sendo incentivadas a explorar, experimentar e desenvolver autonomia.
+                        </p>
+                    </div>
+                </div>
+                <!-- Red Arrow Separator below -->
+                <div class="arrow-separator banner-arrow">
+                    <img src="assets/arrow_separator.svg" alt="Seta para baixo" class="arrow-icon">
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. DEVELOPMENT SECTION -->
+        <section class="story-section dev-section" data-flow-section id="development">
+            <div class="flow-art-container">
+                <div class="dev-container">
+                    <h2 class="section-title text-center">Um ambiente pensado para o desenvolvimento de cada criança</h2>
+                    
+                    <div class="dev-grid">
+                        <!-- Col 1 -->
+                        <div class="dev-col">
+                            <div class="icon-wrapper circle-languages">
+                                <img src="assets/dev_icon_languages.png" alt="Icon Idiomas" class="dev-icon">
+                            </div>
+                            <h3 class="card-title">Imersão em idiomas</h3>
+                            <p class="card-desc">O ensino da língua estrangeira ocorre de maneira natural, integrada à rotina escolar diária, respeitando a faixa etária da criança.</p>
+                            <div class="card-img-wrapper">
+                                <img src="assets/dev_img_languages.png" alt="Crianças brincando" class="card-img">
+                            </div>
+                        </div>
+
+                        <!-- Col 2 -->
+                        <div class="dev-col">
+                            <div class="icon-wrapper circle-science">
+                                <img src="assets/dev_icon_science.png" alt="Icon Pequeno Cientista" class="dev-icon">
+                            </div>
+                            <h3 class="card-title">Pequeno Cientista<br><span class="subtitle">(Kleiner Forscher)</span></h3>
+                            <p class="card-desc">Incentivo à curiosidade científica, com projetos práticos de investigação e experimentos simples desde os primeiros anos.</p>
+                            <div class="card-img-wrapper">
+                                <img src="assets/dev_img_science.jpg" alt="Menina de óculos no laboratório" class="card-img">
+                            </div>
+                        </div>
+
+                        <!-- Col 3 -->
+                        <div class="dev-col">
+                            <div class="icon-wrapper circle-individual">
+                                <img src="assets/dev_icon_individual.png" alt="Icon Olhar individualizado" class="dev-icon">
+                            </div>
+                            <h3 class="card-title">Olhar individualizado</h3>
+                            <p class="card-desc">Acompanhamento próximo de cada aluno por meio de um olhar individualizado de professores e equipe de orientação.</p>
+                            <div class="card-img-wrapper">
+                                <img src="assets/dev_img_individual.jpg" alt="Professora abraçando alunos" class="card-img">
+                            </div>
+                        </div>
+
+                        <!-- Col 4 -->
+                        <div class="dev-col">
+                            <div class="icon-wrapper circle-spaces">
+                                <img src="assets/dev_icon_spaces.png" alt="Icon Espaços que educam" class="dev-icon">
+                            </div>
+                            <h3 class="card-title">Espaços que educam</h3>
+                            <p class="card-desc">Ambientes planejados para promover a socialização, o brincar, a experimentação livre e o contato diário com a natureza.</p>
+                            <div class="card-img-wrapper">
+                                <img src="assets/dev_img_spaces.jpg" alt="Crianças e orientadora ao ar livre" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Red Arrow Separator below -->
+                    <div class="arrow-separator">
+                        <img src="assets/arrow_separator.svg" alt="Seta para baixo" class="arrow-icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CURRÍCULO SOLIDÁRIO SECTION -->
+        <section class="story-section curriculo-section" data-flow-section id="curriculo">
+            <div class="flow-art-container">
+                <div class="curriculo-container">
+                    <div class="curriculo-grid">
+                        <!-- Left Column -->
+                        <div class="curriculo-left">
+                            <div class="child-photo-wrapper">
+                                <img src="assets/curriculo_child.jpg" alt="Criança estendendo a mão" class="child-photo">
+                            </div>
+                        </div>
+                        <!-- Right Column -->
+                        <div class="curriculo-right">
+                            <h2 class="curriculo-title">Currículo Solidário</h2>
+                            <p class="curriculo-text">
+                                Formação cidadã por meio de projetos sociais práticos, como iniciativas de proteção animal e sustentabilidade.
+                            </p>
+                            <p class="curriculo-text font-semibold">
+                                Um corpo docente qualificado para a condução das experiências na educação infantil, visando promover o desenvolvimento integral das crianças.
+                            </p>
+                            
+                            <div class="curriculo-decorations">
+                                <img src="assets/curriculo_decorations.png" alt="Ilustração do currículo e crianças" class="curriculo-decorations-img">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Red Arrow Separator below -->
+                    <div class="arrow-separator">
+                        <img src="assets/arrow_separator.svg" alt="Seta para baixo" class="arrow-icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. STRUCTURE SECTION -->
+        <section class="story-section structure-section" data-flow-section id="structure">
+            <div class="flow-art-container">
+                <div class="structure-container">
+                    <div class="structure-header text-center">
+                        <h3 class="structure-subtitle">CONHEÇA A</h3>
+                        <h2 class="structure-title">ESTRUTURA DO PORTINHO</h2>
+                    </div>
+
+                    <!-- Carousel Layout -->
+                    <div class="carousel-wrapper">
+                        <button class="carousel-btn btn-left" id="prev-btn" aria-label="Slide anterior">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"/></svg>
+                        </button>
+                        <div class="carousel-track-container">
+                            <div class="carousel-track" id="carousel-track">
+                                <!-- Left Preview -->
+                                <div class="carousel-item side-item side-left">
+                                    <img src="assets/structure_left.jpg" alt="Piscina/Prainha do Portinho">
+                                </div>
+                                <!-- Center Image -->
+                                <div class="carousel-item center-item">
+                                    <img src="assets/structure_center.png" alt="Crianças na sala de aula/ateliê">
+                                </div>
+                                <!-- Right Preview -->
+                                <div class="carousel-item side-item side-right">
+                                    <img src="assets/structure_right.png" alt="Crianças brincando ao ar livre">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-btn btn-right" id="next-btn" aria-label="Próximo slide">
+                            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
+                        </button>
+                    </div>
+
+                    <!-- Red Arrow Separator below -->
+                    <div class="arrow-separator">
+                        <img src="assets/arrow_separator.svg" alt="Seta para baixo" class="arrow-icon">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. FINAL CTA + FORM + FOOTER SECTION -->
+        <section class="story-section form-section" data-flow-section id="form-section">
+            <div class="flow-art-container form-footer-art-container">
+                <div class="form-section-container">
+                    <!-- Left Info Column -->
+                    <div class="form-info-col">
+                        <h2 class="form-info-title">
+                            Dê o <span class="highlight-text">primeiro passo</span> dessa jornada com o seu filho.
+                        </h2>
+                        <p class="form-info-subtitle">
+                            <strong>Agende uma visita no Portinho</strong><br>
+                            e conheça a nossa proposta pedagógica e ambientes de perto.
+                        </p>
+                        
+                        <ul class="form-bullets-list">
+                            <li><span class="bullet-dot"></span>Fazendinha</li>
+                            <li><span class="bullet-dot"></span>Espaço sensorial</li>
+                            <li><span class="bullet-dot"></span>Horta</li>
+                            <li><span class="bullet-dot"></span>Ateliê</li>
+                            <li><span class="bullet-dot"></span>e muito mais</li>
+                        </ul>
+
+                        <div class="cta-kids-photo-wrapper">
+                            <img src="assets/cta_kids.png" alt="Crianças brincando juntas" class="cta-kids-photo">
+                        </div>
+                    </div>
+
+                    <!-- Right Form Column -->
+                    <div class="form-card-col">
+                        <div class="form-card">
+                            <h3 class="form-card-title">CONVERSE COM A EQUIPE DO <span class="title-porto">PORTO.</span></h3>
+                            
+                            <form id="contact-form" novalidate>
+                                <!-- Responsável Title -->
+                                <div class="form-section-label">Responsável</div>
+
+                                <!-- Nome Completo -->
+                                <div class="form-input-wrapper">
+                                    <input type="text" id="nome" name="nome" placeholder="Nome Completo" required minlength="5">
+                                    <span class="error-msg">Por favor, insira o nome completo.</span>
+                                </div>
+
+                                <!-- CPF/Passaporte -->
+                                <div class="form-input-wrapper">
+                                    <input type="text" id="cpf" name="cpf" placeholder="CPF/Passaporte" required>
+                                    <span class="error-msg">Por favor, insira um documento válido.</span>
+                                </div>
+
+                                <!-- Row 1: Ex-Aluno / Irmão -->
+                                <div class="form-row-2">
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="ex_aluno" name="ex_aluno" required>
+                                            <option value="" disabled selected hidden>Ex-Aluno(a)</option>
+                                            <option value="sim">Sim</option>
+                                            <option value="nao">Não</option>
+                                        </select>
+                                        <span class="error-msg">Selecione uma opção.</span>
+                                    </div>
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="irmao_aluno" name="irmao_aluno" required>
+                                            <option value="" disabled selected hidden>Irmão (ã) aluno(a)</option>
+                                            <option value="sim">Sim</option>
+                                            <option value="nao">Não</option>
+                                        </select>
+                                        <span class="error-msg">Selecione uma opção.</span>
+                                    </div>
+                                </div>
+
+                                <!-- Row 2: País / Telefone -->
+                                <div class="form-row-2">
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="pais" name="pais" required>
+                                            <option value="brasil" selected>Brasil</option>
+                                            <option value="outro">Outro</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-input-wrapper">
+                                        <input type="tel" id="telefone" name="telefone" placeholder="Telefone DDD12345678" required>
+                                        <span class="error-msg">Telefone inválido.</span>
+                                    </div>
+                                </div>
+
+                                <!-- E-Mail -->
+                                <div class="form-input-wrapper">
+                                    <input type="email" id="email" name="email" placeholder="E-Mail" required>
+                                    <span class="error-msg">E-mail inválido.</span>
+                                </div>
+
+                                <!-- Row 3: Ano Interesse / Campus -->
+                                <div class="form-row-2">
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="ano_interesse" name="ano_interesse" required>
+                                            <option value="" disabled selected hidden>Ano Interesse</option>
+                                            <option value="2026">2026</option>
+                                            <option value="2027">2027</option>
+                                        </select>
+                                        <span class="error-msg">Selecione o ano.</span>
+                                    </div>
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="campus" name="campus" required>
+                                            <option value="" disabled selected hidden>Campus</option>
+                                            <option value="morumbi">Morumbi</option>
+                                            <option value="panamby">Panamby</option>
+                                            <option value="valinhos">Valinhos</option>
+                                        </select>
+                                        <span class="error-msg">Selecione o campus.</span>
+                                    </div>
+                                </div>
+
+                                <!-- Estudante Section -->
+                                <div class="form-section-label">Estudante</div>
+
+                                <!-- Nome Estudante -->
+                                <div class="form-input-wrapper">
+                                    <input type="text" id="nome_estudante" name="nome_estudante" placeholder="Nome" required>
+                                    <span class="error-msg">Por favor, insira o nome do estudante.</span>
+                                </div>
+
+                                <!-- Data de Nascimento -->
+                                <div class="form-input-wrapper">
+                                    <input type="text" id="data_nascimento" name="data_nascimento" placeholder="Data de Nascimento dd/mm/aaaa" required>
+                                    <span class="error-msg">Data inválida.</span>
+                                </div>
+
+                                <!-- Row 4: Currículo / Série -->
+                                <div class="form-row-2">
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="curriculo_estudante" name="curriculo_estudante" required>
+                                            <option value="" disabled selected hidden>Currículo</option>
+                                            <option value="brasileiro">Brasileiro</option>
+                                            <option value="bilingue">Bilingue</option>
+                                        </select>
+                                        <span class="error-msg">Selecione o currículo.</span>
+                                    </div>
+                                    <div class="form-input-wrapper select-wrapper">
+                                        <select id="serie_interesse" name="serie_interesse" required>
+                                            <option value="" disabled selected hidden>Série de interesse</option>
+                                            <option value="infantil_1">Infantil 1</option>
+                                            <option value="infantil_2">Infantil 2</option>
+                                            <option value="infantil_3">Infantil 3</option>
+                                            <option value="infantil_4">Infantil 4</option>
+                                            <option value="infantil_5">Infantil 5</option>
+                                        </select>
+                                        <span class="error-msg">Selecione a série.</span>
+                                    </div>
+                                </div>
+
+                                <!-- Escola de origem -->
+                                <div class="form-input-wrapper">
+                                    <input type="text" id="escola_origem" name="escola_origem" placeholder="Escola de origem?">
+                                </div>
+
+                                <!-- Adicionar outro filho button -->
+                                <div class="form-add-btn-wrapper">
+                                    <button type="button" class="btn-add-child" id="add-child-btn">Adicionar outro filho</button>
+                                </div>
+
+                                <!-- Checkbox Consent -->
+                                <div class="form-group-checkbox">
+                                    <label class="checkbox-container">
+                                        <input type="checkbox" name="consentimento" required>
+                                        <span class="checkbox-custom"></span>
+                                        <span class="checkbox-text">
+                                            Aceito receber informativos promocionais do Colégio Visconde de Porto Seguro por e-mail, SMS e mensagens eletrônicas
+                                        </span>
+                                    </label>
+                                    <span class="error-msg checkbox-error">É necessário aceitar os termos para continuar.</span>
+                                </div>
+
+                                <!-- Submit Button (Right Aligned) -->
+                                <div class="form-submit-wrapper">
+                                    <button type="submit" class="confirm-button">Confirmar</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. CERTIFICATIONS FOOTER -->
+                <footer class="footer-section">
+                    <div class="footer-container">
+                        <!-- Certifications Row -->
+                        <div class="certifications-row">
+                            <h4 class="cert-title text-center">Certificações que nos inspiram a fazer o nosso melhor:</h4>
+                            <div class="cert-logos-container">
+                                <img src="assets/partners.png" alt="Logos de parceiros de certificação" class="cert-logos-banner">
+                            </div>
+                        </div>
+
+                        <!-- Campus Columns Grid -->
+                        <div class="campus-grid">
+                            <!-- Column 1: Morumbi -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Morumbi</h5>
+                                <p class="campus-address">
+                                    Rua Floriano Peixoto Santos, 55 - Morumbi<br>
+                                    São Paulo - SP<br>
+                                    CEP: 05658-080<br>
+                                    Tel.: (11) 3771 8000
+                                </p>
+                            </div>
+
+                            <!-- Column 2: Panamby -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Panamby</h5>
+                                <p class="campus-address">
+                                    Rua Itapaiuna, 1355 - Panamby<br>
+                                    CEP 05707-001<br>
+                                    Tel.: (11) 3747 9000
+                                </p>
+                            </div>
+
+                            <!-- Column 3: Valinhos -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Valinhos</h5>
+                                <p class="campus-address">
+                                    Rod. Visconde de Porto Seguro, 5.701 - Vale do Itamaracá<br>
+                                    CEP 13278-327<br>
+                                    Tel.: (19) 3859 6000
+                                </p>
+                            </div>
+
+                            <!-- Column 4: Portinho Morumbi -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Portinho Morumbi</h5>
+                                <p class="campus-address">
+                                    Rua Leocádia Ferreira, 20 - Morumbi<br>
+                                    CEP 05659-030<br>
+                                    Tel.: (11) 3771 8161
+                                </p>
+                            </div>
+
+                            <!-- Column 5: Portinho Panamby -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Portinho Panamby</h5>
+                                <p class="campus-address">
+                                    Rua Itapaiuna, 1350 - Panamby<br>
+                                    CEP 05707-001<br>
+                                    Tel.: (11) 3747 9251
+                                </p>
+                            </div>
+
+                            <!-- Column 6: Portinho Valinhos -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Portinho Valinhos</h5>
+                                <p class="campus-address">
+                                    Alameda Itatuba, 236 - Vale do Itamaracá<br>
+                                    CEP 13278-520<br>
+                                    Tel.: (19) 3859 6121
+                                </p>
+                            </div>
+
+                            <!-- Column 7: Vila Andrade -->
+                            <div class="campus-col">
+                                <h5 class="campus-name">Vila Andrade</h5>
+                                <p class="campus-address">
+                                    Rua Carvalho de Freitas, 450 - Vila Andrade<br>
+                                    CEP 05728-030<br>
+                                    Tel.: (11) 3740 1099
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Copyright & Small Logo -->
+                        <div class="footer-bottom">
+                            <p class="copyright-text">
+                                © 2026 Colégio Visconde de Porto Seguro. Todos os direitos reservados.
+                            </p>
+                            <div class="footer-logo-wrapper">
+                                <img src="assets/logo_porto_small.png" alt="Porto Seguro Logo" class="footer-logo">
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Main JavaScript -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
